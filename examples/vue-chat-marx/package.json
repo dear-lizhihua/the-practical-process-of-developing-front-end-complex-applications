@@ -1,0 +1,18 @@
+{
+  "name": "vue-chat-marx",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vue": "^3.2.45",
+    "lodash-es": "^4.0.0",
+    "great-marx": "workspace:*"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.0.0",
+    "sass": "^1.54.0",
+    "vite": "^4.0.0"
+  }
+}
