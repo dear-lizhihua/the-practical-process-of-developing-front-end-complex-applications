@@ -19,7 +19,8 @@ if (process.env.APP_ENV !== 'development') {
     formats: ['esm'],
     entry: {
       index: resolve(__dirname, 'src/index.js'),
-      // internal: resolve(__dirname, 'src/internal.js'),
+      page: resolve(__dirname, 'src/page.js'),
+      component: resolve(__dirname, 'src/component.js'),
     },
     fileName: (format, entryName) => `${entryName}.${format}.js`,
     // name: 'ComponentName',
